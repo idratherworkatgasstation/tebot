@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "69q4K85KCjqPDg4HznrUb4j3Kds=",
+			"path": "github.com/PuerkitoBio/goquery",
+			"revision": "1a71cc719d0d5b9e4f14ae072bef08b576b0bab5",
+			"revisionTime": "2017-10-07T14:12:28Z"
+		},
+		{
+			"checksumSHA1": "JQCNaRGNgqFWKfoLLmEJiDPzFkc=",
+			"path": "github.com/Syfaro/telegram-bot-api",
+			"revision": "2022d04b94f50056a09962b1ac81cdd821d20a55",
+			"revisionTime": "2017-11-09T18:51:50Z"
+		},
+		{
+			"checksumSHA1": "Bgs5fKx4V8jxL/m/krOLmhS4az4=",
+			"path": "github.com/andybalholm/cascadia",
+			"revision": "349dd0209470eabd9514242c688c403c0926d266",
+			"revisionTime": "2016-12-24T14:14:13Z"
+		},
+		{
+			"checksumSHA1": "mYrkYI/2iFOlfvPzsjYIKO8KUGY=",
+			"path": "github.com/technoweenie/multipartstreamer",
+			"revision": "a90a01d73ae432e2611d178c18367fbaa13e0154",
+			"revisionTime": "2013-10-20T00:18:33Z"
+		},
+		{
+			"checksumSHA1": "GtamqiJoL7PGHsN454AoffBFMa8=",
+			"path": "golang.org/x/net/context",
+			"revision": "a8b9294777976932365dabb6640cf1468d95c70f",
+			"revisionTime": "2017-11-29T19:21:16Z"
+		},
+		{
+			"checksumSHA1": "WHc3uByvGaMcnSoI21fhzYgbOgg=",
+			"path": "golang.org/x/net/context/ctxhttp",
+			"revision": "a8b9294777976932365dabb6640cf1468d95c70f",
+			"revisionTime": "2017-11-29T19:21:16Z"
+		},
+		{
+			"checksumSHA1": "2t6c6F2y4b/PEV04TOHpQxh/xLc=",
+			"path": "golang.org/x/net/html",
+			"revision": "a8b9294777976932365dabb6640cf1468d95c70f",
+			"revisionTime": "2017-11-29T19:21:16Z"
+		},
+		{
+			"checksumSHA1": "uMRr2bnIJS+9Xm0FqMBYUTzaSGs=",
+			"path": "golang.org/x/net/html/atom",
+			"revision": "a8b9294777976932365dabb6640cf1468d95c70f",
+			"revisionTime": "2017-11-29T19:21:16Z"
+		},
+		{
+			"checksumSHA1": "HQvr+gmAbz98fNsVCvrY+8phVm8=",
+			"path": "google.golang.org/api/gensupport",
+			"revision": "88d8826ad7655f8bdc7328b1ec3774f3851c3a44",
+			"revisionTime": "2017-11-30T00:03:37Z"
+		},
+		{
+			"checksumSHA1": "AaqMJJ97hAl8/sCgTHCxowz+8N0=",
+			"path": "google.golang.org/api/googleapi",
+			"revision": "88d8826ad7655f8bdc7328b1ec3774f3851c3a44",
+			"revisionTime": "2017-11-30T00:03:37Z"
+		},
+		{
+			"checksumSHA1": "Ur+0/fVkt84t4FQbLb0EYfNHBpY=",
+			"path": "google.golang.org/api/googleapi/internal/uritemplates",
+			"revision": "88d8826ad7655f8bdc7328b1ec3774f3851c3a44",
+			"revisionTime": "2017-11-30T00:03:37Z"
+		},
+		{
+			"checksumSHA1": "zYnPt5vtdQV9OHrJ/k5/OihDTtc=",
+			"path": "google.golang.org/api/googleapi/transport",
+			"revision": "88d8826ad7655f8bdc7328b1ec3774f3851c3a44",
+			"revisionTime": "2017-11-30T00:03:37Z"
+		},
+		{
+			"checksumSHA1": "mZP1or3b13+Ca++vWP+A+CiDGVE=",
+			"path": "google.golang.org/api/youtube/v3",
+			"revision": "88d8826ad7655f8bdc7328b1ec3774f3851c3a44",
+			"revisionTime": "2017-11-30T00:03:37Z"
+		}
+	],
+	"rootPath": "TelBot"
+}
