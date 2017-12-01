@@ -51,7 +51,7 @@ func main() {
 
 	service, err := youtube.New(client)
 	if err != nil {
-		fmt.Println("Problem with Youtube client", err)
+		fmt.Println("Problems with Youtube client", err.Error())
 	}
 
 	call := service.Search.List("id, snippet").
@@ -59,7 +59,7 @@ func main() {
 		MaxResults(*maxResults)
 	response, err := call.Do()
 	if err != nil {
-		log.Fatalf("Problem with search API", err)
+		log.Fatalf("Problems with search API", err.Error())
 	}
 
 
@@ -154,7 +154,6 @@ func main() {
 					break
 
 				case "YouTube":
-					//Youtube search
 					for _, item := range response.Items {
 						videos[item.Snippet.Title] = "https://www.youtube.com/watch?v="+item.Id.VideoId
 					}
@@ -176,7 +175,7 @@ func main() {
 		}
 	}
 }
-//Get random video about Go
+//Get random video from results
 func getVideo(v map[string]string) string {
 	i := int(float32(len(v)) * rand.Float32())
 	for _, v := range v {
