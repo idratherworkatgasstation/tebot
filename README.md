@@ -1,3 +1,3 @@
 # tebot
-Simple Telegram bot
-This bot can search YouTube videos about Go and parse books from GitHub
+## Simple Telegram bot
+This bot is no longer active but I wanna keep it as my first development project.
